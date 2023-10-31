@@ -7,15 +7,18 @@ body {
 }
 
 header {
-    background-color: #FCCD04;
     margin: 0 0;
     padding: 0 0;
-    display: block;
-    position: fixed;
 }
 
 nav {
+    background-color: #FCCD04;
     color: white;
+    margin: 0 0;
+    padding: 0 0;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
 }
 
 nav > ul {
@@ -41,6 +44,13 @@ main {
 
 h1 {
     color: #A64AC9;
+}
+
+section {
+    min-height: 100vh;
+    padding-top: 70px;
+    padding-left: 20px;
+    margin: 20px;
 }
 
 footer {
