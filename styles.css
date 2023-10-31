@@ -2,25 +2,48 @@ body {
     background-color: #fffcf7;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color: #000000;
+    margin: 0 0;
+    padding: 0 0;
 }
 
 header {
     background-color: #FCCD04;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    margin: 0 0;
+    padding: 0 0;
+    display: block;
+    position: fixed;
+}
+
+nav {
+    color: white;
 }
 
 nav > ul {
     list-style-type: none;
-    color: white;
 }
 
 li {
     display: inline;
-    
+    padding: 20px;
+    margin: 20px;
+}
+
+li a:hover {
+    background-color: #fffcf7;
+    color: #FCCD04;
+}
+
+main {
+    padding-top: 70px;
+    padding-left: 20px;
+    margin: 20px;
 }
 
 h1 {
     color: #A64AC9;
+}
+
+footer {
+    padding: 20px;
+    margin: 20px;
 }
