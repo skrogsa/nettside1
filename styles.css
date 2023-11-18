@@ -2,23 +2,24 @@ body {
     background-color: #fffcf7;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color: #000000;
-    margin: 0 0;
-    padding: 0 0;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    margin: 0 0;
-    padding: 0 0;
+    background-color: #FCCD04;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
 }
 
 nav {
-    background-color: #FCCD04;
     color: white;
-    margin: 0 0;
-    padding: 0 0;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: row;
-    position: fixed;
 }
 
 nav > ul {
