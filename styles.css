@@ -59,6 +59,11 @@ li a:hover {
     color: #FCCD04;
 }
 
+li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 /* Navbar: Endre slik at avstanden ikke blir større på hover og at lenke ikke endrer farge etter klikket */
 
 /*#toggleButton > img {
