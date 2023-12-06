@@ -137,7 +137,7 @@ footer {
 }
 
 
-/* Endrer farge på nettside basert på om bruker har setting i nettleser som dark eller light. Funker ikkje helt?   */
+/* Endrer farge på nettside basert på om bruker har setting i nettleser som dark eller light. Funker ikkje helt?   
 
 @media (prefers-color-scheme: dark) {
     .dark {
@@ -172,3 +172,4 @@ footer {
         background-image: url(images/night-mode.png);
     }
   }
+  */
