@@ -4,11 +4,13 @@ body {
     padding: 0;
 }
 
+/* Lys farge modus på body */
 .light {
     background-color: #fffcf7;
     color: #000000;
 }
 
+/* Mørk farge modus på body */
 .dark {
     background-color: black;
     color: white;
@@ -18,6 +20,7 @@ a {
     text-decoration: none;
 }
 
+/* Lys farge modus på header */
 header {
     background-color: #FCCD04;
     color: white;
@@ -27,11 +30,13 @@ header {
     top: 0;
 }
 
+/* Mørk farge modus på header */
 .darktwo {
     background-color: #A64AC9;
     color: white;
 }
 
+/* Navigasjonsbar */
 nav {
     margin: 0;
     padding: 0;
@@ -76,7 +81,7 @@ li a:visited {
 } */
 
 
-
+/* Knapp for lys og mørk modus */
 #toggleButton {
     background-size:contain;
     background-repeat: no-repeat;
@@ -89,10 +94,12 @@ li a:visited {
     padding-right: 60px;
 }
 
+/* Knapp som vises når siden er i lys modus */
 .lightfour {
     background-image: url(images/night-mode.png);
 }
 
+/* Knapp som vises når siden er i mørk modus */
 .darkfour {
     background-image: url(images/brightness.png);
 }
@@ -104,10 +111,12 @@ main {
     margin: 20px;
 }
 
+/* Lys farge modus på h1 */
 h1 {
     color: #A64AC9;
 }
 
+/* Mørk farge modus på h1 */
 .darkthree {
     color:#FCCD04;
 }
@@ -126,3 +135,40 @@ footer {
     padding: 20px;
     margin: 20px;
 }
+
+
+/* Endrer farge på nettside basert på om bruker har setting i nettleser som dark eller light. Funker ikkje helt?   */
+
+@media (prefers-color-scheme: dark) {
+    .dark {
+        background-color: black;
+        color: white;
+    }
+    .darktwo {
+        background-color: #A64AC9;
+        color: white;
+    }
+    .darkthree {
+        color:#FCCD04;
+    }
+    .darkfour {
+        background-image: url(images/brightness.png);
+    }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    .light {
+        background-color: #fffcf7;
+        color: #000000;
+    }
+    header {
+        background-color: #FCCD04;
+        color: white;
+    }
+    h1 {
+        color: #A64AC9;
+    }
+    .lightfour {
+        background-image: url(images/night-mode.png);
+    }
+  }
